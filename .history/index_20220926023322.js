@@ -14,4 +14,4 @@ const stringPrueba = '<-- Esta es una prueba a este horario'
 
 loggerHTTP.write( timeMoment + " |MSG| " + stringPrueba + "\n")
 
-setTimeout( function(){ process.kill(process.pid, 'SIGTERM')}, 4000)
+setTimeout( function(){ rocess.kill(process.pid, 'SIGTERM')}, 4000)

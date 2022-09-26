@@ -13,5 +13,3 @@ app.use(morgan({stream:loggerHTTP}))
 const stringPrueba = '<-- Esta es una prueba a este horario'
 
 loggerHTTP.write( timeMoment + " |MSG| " + stringPrueba + "\n")
-
-process.kill(process.pid, 'SIGTERM')
